@@ -1,8 +1,8 @@
 ﻿using System;
-using Assets.Scripts.Core.Providers.GameObjectProviders;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.GameObjectsProviders {
+//Packages.Estenis.EventActions_
+namespace Packages.Esteny.Providers {
   internal class ArgGOsHybridProvider : BaseProvider<GameObjects> {
 
     public override GameObjects Get(object data = null) => data switch {

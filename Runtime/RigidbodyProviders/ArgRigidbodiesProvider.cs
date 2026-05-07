@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.RigidbodyProviders {
+namespace Packages.Esteny.Providers.RigidbodyProviders {
   internal class ArgRigidbodiesProvider : BaseProvider<Rigidbodies> {
     public override Rigidbodies Get( object data = null ) => data switch {
       GameObject go => go.GetComponent<Rigidbody>(),

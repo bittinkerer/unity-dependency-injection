@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.TransformProviders
+namespace Packages.Esteny.Providers.TransformProviders
 {
   internal class ValueTransformsHybridProvider : BaseProvider<Transforms>
   {

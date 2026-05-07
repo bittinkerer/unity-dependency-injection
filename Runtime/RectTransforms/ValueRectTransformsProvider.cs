@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.RectTransforms {
+namespace Packages.Esteny.Providers.RectTransforms {
   internal class ValueRectTransformsProvider : BaseProvider<RectTransforms> {
     [SerializeField] private RectTransform[] _rectTransforms;
 

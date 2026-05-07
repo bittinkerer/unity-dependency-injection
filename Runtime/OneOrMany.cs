@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Assets.Scripts.Core.Providers
+namespace Packages.Esteny.Providers
 {
   [Serializable]
   internal class OneOrMany<T> : IEnumerable<T>

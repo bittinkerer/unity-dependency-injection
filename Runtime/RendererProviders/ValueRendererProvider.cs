@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.RendererProviders
+namespace Packages.Esteny.Providers.RendererProviders
 {
   internal class ValueRendererProvider : BaseProvider<Renderer>
   {

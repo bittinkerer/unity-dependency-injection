@@ -1,8 +1,8 @@
-﻿using Packages.Estenis.GameEvent_;
+﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers
+namespace Packages.Esteny.Providers
 {
-  public abstract class BaseProvider<T> : EventMonoBehaviour
+  public abstract class BaseProvider<T> : MonoBehaviour
   {
     public abstract T Get(object data = null);
   }

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.VectorProvider {
+namespace Packages.Esteny.Providers.VectorProvider {
   internal class FactorVectorProvider : BaseProvider<Vector3> {
     [SerializeField] private BaseProvider<Vector3> _vectorProvider;
     [SerializeField] private float _factor;

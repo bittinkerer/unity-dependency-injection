@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.VectorProvider
+namespace Packages.Esteny.Providers.VectorProvider
 {
   /// <summary>
   /// Provides a position from a transform with possibly a subset of axis values overwritten

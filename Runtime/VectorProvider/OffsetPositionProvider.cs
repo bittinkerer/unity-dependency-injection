@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.VectorProvider {
+namespace Packages.Esteny.Providers.VectorProvider {
   internal class OffsetPositionProvider : BaseProvider<Vector3> {
     [SerializeField] private BaseProvider<Vector3> _positionProvider;
     [SerializeField] private Vector3 _offset;

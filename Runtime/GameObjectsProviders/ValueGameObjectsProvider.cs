@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.GameObjectsProviders
+namespace Packages.Esteny.Providers.GameObjectsProviders
 {
   internal class ValueGameObjectsProvider : BaseProvider<List<GameObject>>
   {

@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.CollidersProviders {
+namespace Packages.Esteny.Providers.CollidersProviders {
   internal class FirstColliderProvider : BaseProvider<Collider> {
     [SerializeField] private BaseProvider<Colliders> _collidersProvider;
 

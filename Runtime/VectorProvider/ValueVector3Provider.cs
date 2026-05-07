@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.VectorProvider
+namespace Packages.Esteny.Providers.VectorProvider
 {
   internal class ValueVector3Provider : BaseProvider<Vector3>
   {

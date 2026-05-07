@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Packages.Estenis.CoreCheckers_;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.TransformProviders
+namespace Packages.Esteny.Providers.TransformProviders
 {
   internal class ArgTransformsHybridProvider : BaseProvider<Transforms>
   {
@@ -15,7 +14,6 @@ namespace Assets.Scripts.Core.Providers.TransformProviders
       List<Transform> trs => new Transforms(trs),
       GameObject go => new Transforms(new Transform[] { go.transform }),
       GameObject[] gos => new Transforms( gos.Select(go => go.transform) ),
-      CheckResult<List<Transform>> cr => new Transforms( (List<Transform>)cr.Value ),
       _ => throw new NotImplementedException()
     };
   }

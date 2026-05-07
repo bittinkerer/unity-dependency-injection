@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.GameObjectsProviders {
+namespace Packages.Esteny.Providers.GameObjectsProviders {
   internal class ArgGameObjectsProvider : BaseProvider<List<GameObject>> {
     public override List<GameObject> Get(object data = null) => data switch {
       GameObject go => new List<GameObject> { go },

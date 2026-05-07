@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.ComponentProviders
+namespace Packages.Esteny.Providers.ComponentProviders
 {
   internal class Components : OneOrMany<Component>
   {

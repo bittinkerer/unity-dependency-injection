@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.Core.Providers.ButtonsProviders
+namespace Packages.Esteny.Providers.ButtonsProviders
 {
   [Serializable]
   internal class Buttons : OneOrMany<Button> // OneOrMany<Button>

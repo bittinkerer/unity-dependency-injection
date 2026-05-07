@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers
+namespace Packages.Esteny.Providers
 {
   internal class GameObjects : OneOrMany<GameObject>
   {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.RigidbodyProviders
+namespace Packages.Esteny.Providers.RigidbodyProviders
 {
   internal class ValueRigidbodiesProvider : BaseProvider<List<Rigidbody>>
   {

@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.Core.Providers.ButtonsProviders;
+using Packages.Esteny.Providers.ButtonsProviders;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers
+namespace Packages.Esteny.Providers
 {
   internal class Colliders : OneOrMany<Collider>
   {

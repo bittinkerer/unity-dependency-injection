@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.CamerasProviders {
+namespace Packages.Esteny.Providers.CamerasProviders {
   internal class ByTagCamerasProvider : BaseProvider<Cameras> {
     [SerializeField] private string _tag;
 

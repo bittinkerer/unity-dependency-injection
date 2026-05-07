@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core.Providers.CollidersProviders;
+﻿using Packages.Esteny.Providers.CollidersProviders;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers {
+namespace Packages.Esteny.Providers {
   internal class SphereOverlapCollidersProvider : BaseProvider<Colliders> {
     [SerializeField] private BaseProvider<Vector3> _positionProvider;
     [SerializeField] private BaseProvider<Vector3> _offsetProvider;

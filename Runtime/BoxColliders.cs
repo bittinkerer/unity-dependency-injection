@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers
+namespace Packages.Esteny.Providers
 {
   [Serializable]
   internal class BoxColliders : IEnumerable<BoxCollider>

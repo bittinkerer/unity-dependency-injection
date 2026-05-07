@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.CollidersProviders
+namespace Packages.Esteny.Providers.CollidersProviders
 {
   internal class CollidersInGoAndChildrenProvider : BaseProvider<Collider[]>
   {

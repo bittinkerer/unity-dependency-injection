@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.AnimatorsProviders {
+namespace Packages.Esteny.Providers.AnimatorsProviders {
   internal class Animators : OneOrMany<Animator> {
     public Animators(IEnumerable<Animator> values) : base(values) {
     }

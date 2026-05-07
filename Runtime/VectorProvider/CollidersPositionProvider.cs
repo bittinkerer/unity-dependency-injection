@@ -1,9 +1,21 @@
 ﻿using System;
-using Assets.Scripts.Core.Enums;
 using Packages.Estenis.UnityExts_;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.VectorProvider {
+namespace Packages.Esteny.Providers.VectorProvider {
+  public enum ColliderSideType {
+    CENTER,
+    BACK,
+    FRONT,
+    TOP,
+    BOTTOM,
+    TOPBACK,
+    TOPFRONT,
+    BOTTOMFRONT,
+    BOTTOMBACK,
+    QUARTER2TOPCENTER
+  }
+
   /// <summary>
   /// Returns position on the bounds of the collider
   /// NOTE: that Right will always refer to its local-forward direction, similarly Top refers to local-up direction

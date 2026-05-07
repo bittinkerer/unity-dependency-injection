@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.ParticleSystems
+namespace Packages.Esteny.Providers.ParticleSystems
 {
   internal class ValueParticleSystemsProvider : BaseProvider<ParticleSystem[]>
   {

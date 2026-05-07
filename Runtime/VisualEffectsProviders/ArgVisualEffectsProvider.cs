@@ -3,7 +3,7 @@ using UnityEngine.VFX;
 using UnityEngine;
 using System.Linq;
 
-namespace Assets.Scripts.Core.Providers.VisualEffectsProviders
+namespace Packages.Esteny.Providers.VisualEffectsProviders
 {
   internal class ArgVisualEffectsProvider : BaseProvider<List<VisualEffect>>
   {

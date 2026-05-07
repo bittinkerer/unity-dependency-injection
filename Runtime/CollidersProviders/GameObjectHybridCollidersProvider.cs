@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.CollidersProviders {
+namespace Packages.Esteny.Providers.CollidersProviders {
   internal class GameObjectHybridCollidersProvider : BaseProvider<Colliders> {
     [SerializeField] private BaseProvider<GameObject> _gameobjectProvider;
 

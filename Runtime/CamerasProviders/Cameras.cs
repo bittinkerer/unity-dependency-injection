@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.CamerasProviders {
+namespace Packages.Esteny.Providers.CamerasProviders {
   internal class Cameras : OneOrMany<Camera> {
     public Cameras(IEnumerable<Camera> values) : base(values) { }
 

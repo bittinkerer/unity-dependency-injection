@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.VectorProvider {
+namespace Packages.Esteny.Providers.VectorProvider {
   /// <summary>
   /// Provides a position based off of a transform-direction, an initial position and an offset
   /// The resulting position consists of the initial position + the offset 
@@ -35,7 +35,7 @@ namespace Assets.Scripts.Core.Providers.VectorProvider {
         return;
       }
 
-      var color = Color.greenYellow;
+      var color = Color.yellow;
       color.a = 1f;
       Gizmos.color = color;
       Gizmos.DrawSphere( _position + _offset, .2f );

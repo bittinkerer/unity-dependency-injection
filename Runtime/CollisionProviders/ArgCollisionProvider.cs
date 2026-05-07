@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.CollisionProviders
+namespace Packages.Esteny.Providers.CollisionProviders
 {
   internal class ArgCollisionProvider : BaseCollisionProvider
   {

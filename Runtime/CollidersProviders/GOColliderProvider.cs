@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.CollidersProviders {
+namespace Packages.Esteny.Providers.CollidersProviders {
   internal class GOColliderProvider : BaseProvider<Collider> {
     [SerializeField] private BaseProvider<GameObject> _goProvider;
 

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.VectorProvider {
+namespace Packages.Esteny.Providers.VectorProvider {
   internal class ColliderCenterBottomPositionProvider : BaseProvider<Vector3> {
     [SerializeField] private BaseProvider<Collider> _colliderProvider;
     [SerializeField] private Vector3 _offset = Vector3.zero;

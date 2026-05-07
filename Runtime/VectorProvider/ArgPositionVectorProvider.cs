@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.Core.Providers.TransformProviders;
+using Packages.Esteny.Providers.TransformProviders;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.VectorProvider
+namespace Packages.Esteny.Providers.VectorProvider
 {
   internal class ArgPositionVectorProvider : BaseProvider<Vector3>
   {

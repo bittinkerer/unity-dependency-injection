@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.VectorProvider {
+namespace Packages.Esteny.Providers.VectorProvider {
   internal class ForwardIncrementsVectorsProvider : BaseProvider<Vector3[]> {
     [SerializeField] private int                      _amount;
     [SerializeField] private float                    _angleIncrementInDegrees;

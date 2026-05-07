@@ -1,6 +1,6 @@
 ﻿using Packages.Estenis.UnityExts_;
 
-namespace Assets.Scripts.Core.Providers.TransformProviders {
+namespace Packages.Esteny.Providers.TransformProviders {
   internal class RootTransformsProvider : BaseProvider<Transforms> {
 
     public override Transforms Get(object data = null) =>

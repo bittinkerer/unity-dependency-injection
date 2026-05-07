@@ -1,7 +1,7 @@
 ﻿using Packages.Estenis.UnityExts_;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.VectorProvider {
+namespace Packages.Esteny.Providers.VectorProvider {
   internal class ColliderBoundsSizeVectorProvider : BaseProvider<Vector3> {
     [SerializeField] private BaseProvider<Colliders> _collidersProvider;
     [SerializeField] private BaseProvider<Vector3>   _sizeFactorProvider;

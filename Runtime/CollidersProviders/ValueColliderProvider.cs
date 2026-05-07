@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.CollidersProviders {
+namespace Packages.Esteny.Providers.CollidersProviders {
   internal class ValueColliderProvider : BaseProvider<Collider> {
     [SerializeField] private Collider _collider;
 

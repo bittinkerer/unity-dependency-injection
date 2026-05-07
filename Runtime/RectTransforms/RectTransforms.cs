@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.RectTransforms {
+namespace Packages.Esteny.Providers.RectTransforms {
   internal class RectTransforms : OneOrMany<RectTransform> {
     public RectTransforms(IEnumerable<RectTransform> values) : base(values) {
     }

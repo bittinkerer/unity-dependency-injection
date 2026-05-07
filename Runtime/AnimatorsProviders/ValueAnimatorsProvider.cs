@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.AnimatorsProviders {
+namespace Packages.Esteny.Providers.AnimatorsProviders {
   internal class ValueAnimatorsProvider : BaseProvider<Animators> {
     [SerializeField] private Animator[] _animators;
 

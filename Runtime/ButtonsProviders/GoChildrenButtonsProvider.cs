@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.Core.Providers.ButtonsProviders
+namespace Packages.Esteny.Providers.ButtonsProviders
 {
   internal class GoChildrenButtonsProvider : BaseProvider<Buttons>
   {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.QuaternionProviders
+namespace Packages.Esteny.Providers.QuaternionProviders
 {
   internal class FromEulerAnglesQuaternionProvider : BaseProvider<Quaternion>
   {

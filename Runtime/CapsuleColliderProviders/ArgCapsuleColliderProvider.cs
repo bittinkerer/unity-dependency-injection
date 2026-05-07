@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.CapsuleColliderProviders
+namespace Packages.Esteny.Providers.CapsuleColliderProviders
 {
   internal class ArgCapsuleColliderProvider : BaseProvider<CapsuleCollider>
   {

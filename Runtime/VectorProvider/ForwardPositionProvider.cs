@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.VectorProvider
+namespace Packages.Esteny.Providers.VectorProvider
 {
   /// <summary>
   /// Returns a position based off of the forward-direction vector provided (normalized) multiplied by the distance provided

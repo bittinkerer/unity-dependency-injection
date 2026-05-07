@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.ComponentProviders
+namespace Packages.Esteny.Providers.ComponentProviders
 {
   internal class ArgComponentProvider : BaseProvider<Component>
   {

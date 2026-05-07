@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core.Providers.TransformProviders;
+﻿using Packages.Esteny.Providers.TransformProviders;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.VectorProvider {
+namespace Packages.Esteny.Providers.VectorProvider {
   internal class TransformForwardPositionProvider : BaseProvider<Vector3> {
     [SerializeField] private BaseProvider<Transforms> _transformsProvider;
     [SerializeField] private float _distanceInForwardDirection;

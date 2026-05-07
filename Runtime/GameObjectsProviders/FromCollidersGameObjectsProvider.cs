@@ -1,9 +1,7 @@
 ﻿using System.Linq;
-using Assets.Scripts.Core.Providers.CollidersProviders;
-using Assets.Scripts.Core.Providers.GameObjectProviders;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.GameObjectsProviders {
+namespace Packages.Esteny.Providers.GameObjectsProviders {
   internal class FromCollidersGameObjectsProvider : BaseProvider<GameObjects> {
     [SerializeField] private BaseProvider<Colliders> _collidersProvider;
 

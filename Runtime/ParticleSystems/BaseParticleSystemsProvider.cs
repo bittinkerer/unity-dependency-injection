@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.ParticleSystems
+namespace Packages.Esteny.Providers.ParticleSystems
 {
   internal abstract class BaseParticleSystemsProvider : BaseProvider<ParticleSystem[]>
   {

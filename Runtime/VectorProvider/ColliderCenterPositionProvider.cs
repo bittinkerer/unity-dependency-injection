@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core.Providers.CollidersProviders;
+﻿using Packages.Esteny.Providers.CollidersProviders;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.VectorProvider {
+namespace Packages.Esteny.Providers.VectorProvider {
   internal class ColliderCenterPositionProvider : BaseProvider<Vector3> {
     [SerializeField] private BaseProvider<Colliders> _colliderProvider;
 

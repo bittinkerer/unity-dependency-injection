@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.VFX;
 
-namespace Assets.Scripts.Core.Providers.VisualEffectsProviders
+namespace Packages.Esteny.Providers.VisualEffectsProviders
 {
   internal class TransformArgVisualEffectProvider : BaseProvider<VisualEffect>
   {

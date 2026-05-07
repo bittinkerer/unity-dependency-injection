@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core.Providers.ComponentProviders;
+﻿using Packages.Esteny.Providers.ComponentProviders;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.CollidersProviders
+namespace Packages.Esteny.Providers.CollidersProviders
 {
   internal class SphereCastCollidersProvider : BaseProvider<Components>
   {

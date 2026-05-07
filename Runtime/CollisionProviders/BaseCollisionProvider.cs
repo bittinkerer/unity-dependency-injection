@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.CollisionProviders
+namespace Packages.Esteny.Providers.CollisionProviders
 {
   internal abstract class BaseCollisionProvider : BaseProvider<Collision>
   {

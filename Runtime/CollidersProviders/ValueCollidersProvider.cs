@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Scripts.Core.Providers.CollidersProviders {
+namespace Packages.Esteny.Providers.CollidersProviders {
   internal class ValueCollidersProvider : BaseProvider<Colliders> {
     [SerializeField] private List<Collider> colliders;
 
