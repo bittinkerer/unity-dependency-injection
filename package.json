@@ -1,0 +1,10 @@
+{
+  "name": "com.esteny.dependency_injection",
+  "version": "1.0.0",
+  "displayName": "Dependency Injection",
+  "description": "Dynamically bind a parameter to a Component using Component providers",
+  "unity": "2021.3",
+  "author": {
+    "name": "Esteny"
+  }
+}
